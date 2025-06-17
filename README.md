@@ -25,32 +25,6 @@
     * `CompositeDisposable` — групповая отмена
 * **Логирование** через SLF4J + Log4j
 
-## Технологии
-
-* Java 17+
-* Maven
-* SLF4J API + Log4j
-* JUnit 5
-
-## Установка и запуск
-
-1. Клонировать репозиторий:
-
-   ```bash
-   git clone https://github.com/ВАШ_ПРОЕКТ/javawork.git
-   cd javawork
-   ```
-2. Собрать и запустить тесты:
-
-   ```bash
-   mvn clean test
-   ```
-3. Запустить демонстрацию:
-
-   ```bash
-   mvn exec:java -Dexec.mainClass="com.custom.rx.java.work.Main"
-   ```
-
 ## Структура проекта
 
 ```plaintext
